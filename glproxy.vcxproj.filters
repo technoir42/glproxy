@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{5db07177-25b0-417b-8e23-f0ff18455db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extensions">
+      <UniqueIdentifier>{0ae5e2cf-a1e0-42d6-9c85-9b579dd8dbed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\GL_VERSION_1_2.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\GL_VERSION_1_3.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\GL_VERSION_1_4.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\GL_VERSION_1_5.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\GL_VERSION_2_0.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\GL_VERSION_2_1.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\extensions\GL_ARB_framebuffer_object.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\extensions\GL_ARB_separate_shader_objects.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\extensions\GL_ARB_vertex_array_object.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\extensions\GL_ARB_vertex_buffer_object.cpp">
+      <Filter>Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glproxy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\glproxy.h" />
+    <ClInclude Include="src\pch.h" />
+  </ItemGroup>
+</Project>

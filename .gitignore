@@ -1,0 +1,8 @@
+bin/*
+temp/*
+
+*.bak
+*.suo
+*.user
+*.sdf
+*.opensdf
